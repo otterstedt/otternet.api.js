@@ -1,0 +1,31 @@
+{
+    "application": {
+        "server": {
+            "bind": "0.0.0.0",
+            "port": 6060
+        }
+    },
+    "access": {
+        "telldus": {
+            "publicKey":    "",
+            "privateKey":   "",
+            "token":        "",
+            "tokenSecret":  ""
+        }
+
+    },
+    "endpoints": {
+        "tracks": {
+            "host": "127.0.1.10",
+            "port": 27017
+        }
+
+    },
+    "paths": {
+        "images": {
+            "dashcam": {
+                "front": "/mnt/tracking/snaps"
+            }
+        }
+    }
+}
